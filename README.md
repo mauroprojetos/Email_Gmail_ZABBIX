@@ -22,7 +22,8 @@ Instale os pacotes abaixo:<br>
 <code>sudo vi main.cf </code><br><br>
 
 <i>Nele, coloque somente as seguintes linhas: </i><br>
-
+<code>inet_interfaces = all</code><br>
+<code>inet_protocols = ipv4</code><br>
 <code>relayhost = [smtp.gmail.com]:587</code><br>
 <code>smtp_tls_loglevel = 1</code><br>
 <code>smtp_use_tls = yes</code><br>
